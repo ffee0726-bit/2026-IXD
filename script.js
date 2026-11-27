@@ -1,13 +1,12 @@
-
 function sayHello(){
-    var response = prompt("what is your name?");
-    alert("Hello,"=response+",have a good day!");
+    var response = prompt("What is your name?");
+    alert("Hello, "+ response +",have a good day!");
 }
 
 function showTopic(){
-    var X=document.getElementByID("demo");
-    X.style.fontSize="25px";
-    X.style.color="red";
+    var x = document.getElementById("demo");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
 }
 
 function add(a,b){
